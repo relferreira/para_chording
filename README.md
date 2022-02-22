@@ -144,7 +144,7 @@ You get <code>The</code>. Repeatedly, you get <code>The The The</code>.</p>
 We’ll talk about how to capitalize the entire output in a bit.</p>
 </blockquote>
 <p><strong>Long Chords</strong><br>
-Back in your text editor, move your fingers around until you press <strong><code>thom</code></strong> altogether. You get:</p>
+Back in your text editor, move your fingers around until you press <strong><code>thm</code></strong> altogether. You get:</p>
 <pre><code>To Whom It May Concern,
 ►
 </code></pre>
