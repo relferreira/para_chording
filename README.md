@@ -14,16 +14,15 @@
 <p><em><strong>Find me on:</strong></em><br>
 <em>Twitter: <a target=”_blank” href="https://twitter.com/mysteryguitarm">Joe Penna [@MysteryGuitarM]</a><br>
 Discord: <a target=”_blank” href="https://discordapp.com/users/691634595627794433">Joe Penna (MysteryGuitarMan)#7614</a></em></p>
-<pre><code>Listen, I'm not a coder/hacker either. I'm a screenwriter.
+<pre>Listen, I'm not a coder/hacker either. I'm a screenwriter.
 
 Thing is... these programs below are so easy to figure out
 that I was able to code this entire chording solution by fumbling
 through beginner example codes online.
 
-(And asking for help a couple times. Many times. Thanks @CodyW, @lamb, @hermo, @Dimentium, @kiinoda)</code></pre>
+(And asking for help a couple times. Many times. Thanks @CodyW, @lamb, @hermo, @Dimentium, @kiinoda)</pre>
 <p>Start by watching this video: <a target=”_blank” href="http://youtube.com/mysteryguitarman"><s>How to start chording with Joe Penna</s></a>  (coming later)</p>
-<pre><code>It explains what chording is, and walks you through this entire read_me.
-</code></pre>
+<pre>It explains what chording is, and walks you through this entire read_me.</pre>
 <h2 id="default-commands">Default Commands</h2>
 <blockquote>
 <p>First time here? Don’t worry about these yet.</p>
