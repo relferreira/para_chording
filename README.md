@@ -19,11 +19,9 @@ Thing is... these programs below are so easy to figure out
 that I was able to code this entire chording solution by fumbling
 through beginner example codes online.
 
-(And asking for help a couple times. Many times.)
-
-Start by watching this video:
+(And asking for help a couple times. Many times. Thanks @CodyW, @hermo, @Dimentium, @kiinoda)
 </code></pre>
-<p>***<a href="http://youtube.com/mysteryguitarman"><s>How to start chording with Joe Penna</s></a>  (coming later)</p>
+<p>Start by watching this video: <a href="http://youtube.com/mysteryguitarman"><s>How to start chording with Joe Penna</s></a>  (coming later)</p>
 <pre><code>It explains what chording is, and walks you through this entire read_me.
 </code></pre>
 <h2 id="default-commands">Default Commands</h2>
