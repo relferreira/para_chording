@@ -12,8 +12,7 @@
 <p><em><strong>beta version: 0.5 (Feb 21, 2022)</strong></em></p>
 <p><em><strong>Find me on:</strong></em><br>
 <em>Twitter: <a href="https://twitter.com/mysteryguitarm">Joe Penna [@MysteryGuitarM]</a><br>
-Discord: <a href="https://discordapp.com/users/691634595627794433">Joe Penna (MysteryGuitarMan)#7614</a><br>
-Paypal: <a href="http://paypal.me/joepenna">paypal.me/joepenna</a></em></p>
+Discord: <a href="https://discordapp.com/users/691634595627794433">Joe Penna (MysteryGuitarMan)#7614</a></em></p>
 <pre><code>Listen, I'm not a coder/hacker either. I'm a screenwriter.
 
 Thing is... these programs below are so easy to figure out
@@ -24,7 +23,7 @@ through beginner example codes online.
 
 Start by watching this video:
 </code></pre>
-<p>***<a href="youtube.com"><s>How to start chording with Joe Penna</s></a>  (coming later)</p>
+<p>***<a href="http://youtube.com/mysteryguitarman"><s>How to start chording with Joe Penna</s></a>  (coming later)</p>
 <pre><code>It explains what chording is, and walks you through this entire read_me.
 </code></pre>
 <h2 id="default-commands">Default Commands</h2>
@@ -61,6 +60,7 @@ Start by watching this video:
 <ul>
 <li><em><a href="http://youtube.com/mysteryguitarman"><s>download link</s></a></em> [real link coming soon]*</li>
 <li><em>These are the files I made to get you chording.</em></li>
+<br>
 </ul>
 </li>
 </ul>
@@ -86,7 +86,7 @@ Start by watching this video:
 <p><em><strong>Karabiner</strong></em></p>
 <ul>
 <li>Open <strong>Karabiner Preferences…</strong> in your taskbar:<br>
-<img src="https://i.imgur.com/g6xasM2.png" alt="karabiner preferences" width="215"></li>
+<img src="https://i.imgur.com/g6xasM2.png" alt="karabiner preferences" width="200"></li>
 <li>Under <strong>Devices</strong>
 <ul>
 <li>Click the left-most checkmark on the keyboard you’d like to use.</li>
@@ -130,7 +130,7 @@ Start by watching this video:
 <li><em>The</em> index fingers usually rest on those two keys.</li>
 <li><em>The</em> term <em>“semantic satiation”</em> describes how you might be feeling about <em>the</em> word <em>“the”</em>.</li>
 </ul>
-<p><strong>Repeats and Shifts</strong><br>
+<p><strong><u>Repeats and Shifts</u></strong><br>
 Try  chording <strong><code>fj</code></strong> repeatedly. You should get <code>the the the</code>.</p>
 <p>If you press-and-hold <strong><code>fj</code></strong>, you get <code>the•••••</code> (where <code>•</code> represents a blank space).</p>
 <blockquote>
@@ -165,7 +165,7 @@ For normal chording, you shouldn’t run into an issue with how long it takes to
 <p><code>⌃ control</code> + <code>⌥ option</code> + <code>⌘ command</code> + <code>i</code></p>
 </blockquote>
 <p>This opens up:<br>
-<img src="https://i.imgur.com/GQFhYAu.png" alt="instant chording" width="600"></p>
+<img src="https://i.imgur.com/GQFhYAu.png" alt="instant chording" width="400"></p>
 <p><strong>Before you add any chords…</strong></p>
 <ul>
 <li>
