@@ -11,8 +11,8 @@
   <div class="stackedit__html"><h1 id="para_chording">para_chording</h1>
 <p><em><strong>beta version: 0.5 (Feb 21, 2022)</strong></em></p>
 <p><em><strong>Find me on:</strong></em><br>
-<em>Twitter: <a href="https://twitter.com/mysteryguitarm">Joe Penna [@MysteryGuitarM]</a><br>
-Discord: <a href="https://discordapp.com/users/691634595627794433">Joe Penna (MysteryGuitarMan)#7614</a></em></p>
+<em>Twitter: <a target=”_blank” href="https://twitter.com/mysteryguitarm">Joe Penna [@MysteryGuitarM]</a><br>
+Discord: <a target=”_blank” href="https://discordapp.com/users/691634595627794433">Joe Penna (MysteryGuitarMan)#7614</a></em></p>
 <pre><code>Listen, I'm not a coder/hacker either. I'm a screenwriter.
 
 Thing is... these programs below are so easy to figure out
@@ -20,7 +20,7 @@ that I was able to code this entire chording solution by fumbling
 through beginner example codes online.
 
 (And asking for help a couple times. Many times. Thanks @CodyW, @hermo, @Dimentium, @kiinoda)</code></pre>
-<p>Start by watching this video: <a href="http://youtube.com/mysteryguitarman"><s>How to start chording with Joe Penna</s></a>  (coming later)</p>
+<p>Start by watching this video: <a target=”_blank” href="http://youtube.com/mysteryguitarman"><s>How to start chording with Joe Penna</s></a>  (coming later)</p>
 <pre><code>It explains what chording is, and walks you through this entire read_me.
 </code></pre>
 <h2 id="default-commands">Default Commands</h2>
@@ -35,9 +35,9 @@ through beginner example codes online.
 <ul>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> <strong>Karabiner Elements</strong>
 <ul>
-<li><a href="https://karabiner-elements.pqrs.org/"><em>download link</em></a></li>
+<li><a target=”_blank” href="https://karabiner-elements.pqrs.org/"><em>download link</em></a></li>
 <li><em>free / open source</em></li>
-<li><em><a href="https://karabiner-elements.pqrs.org/docs/getting-started/installation/">detailed installation instructions</a>, if you need it</em></li>
+<li><em><a target=”_blank” href="https://karabiner-elements.pqrs.org/docs/getting-started/installation/">detailed installation instructions</a>, if you need it</em></li>
 </ul>
 </li>
 </ul>
@@ -55,7 +55,7 @@ through beginner example codes online.
 <ul>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> <strong>para_chording installation</strong>
 <ul>
-<li><em><a href="http://youtube.com/mysteryguitarman"><s>download link</s></a></em> [real link coming soon]*</li>
+<li><em><a target=”_blank” href="http://youtube.com/mysteryguitarman"><s>download link</s></a></em> [real link coming soon]*</li>
 <li><em>These are the files I made to get you chording.</em></li>
 <br>
 </ul>
@@ -337,12 +337,12 @@ These symbols can ONLY be part of your chord:</p>
 <p><strong>Support The Little Guys</strong><br>
 If you get some good use out of this program:</p>
 <ul>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> buy the <strong>Karabiner</strong> peeps <a href="https:karabiner-elements.pqrs.org/docs/pricing/">a nice coffee</a></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> toss the <strong>Keyboard Maestro</strong> folks <a href="https:www.keyboardmaestro.com/main/#Pricing">a few bucks</a></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> check out my <a href="http:paypal.me/joepenna">PayPal page</a></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> buy the <strong>Karabiner</strong> peeps <a target=”_blank” href="https://karabiner-elements.pqrs.org/docs/pricing/">a nice coffee</a></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> toss the <strong>Keyboard Maestro</strong> folks <a target=”_blank” href="https://www.keyboardmaestro.com/main/#Pricing">a few bucks</a></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> check out my <a target=”_blank” href="http://paypal.me/joepenna">PayPal page</a></li>
 </ul>
 <blockquote>
-<p>Written with <a href="https:stackedit.io/">StackEdit</a>.</p>
+<p>Written with <a target=”_blank” href="https:stackedit.io/">StackEdit</a>.</p>
 </blockquote>
 </div>
 </body>
