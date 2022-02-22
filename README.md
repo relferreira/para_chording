@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -9,7 +10,7 @@
 
 <body class="stackedit">
   <div class="stackedit__html"><h1 id="para_chording">para_chording</h1>
-<p><em><strong>beta version: 0.5 (Feb 21, 2022)</strong></em></p>
+<p><em><strong>beta version: 0.5.0 beta (Feb 21, 2022)</strong></em></p>
 <p><em><strong>Find me on:</strong></em><br>
 <em>Twitter: <a target=”_blank” href="https://twitter.com/mysteryguitarm">Joe Penna [@MysteryGuitarM]</a><br>
 Discord: <a target=”_blank” href="https://discordapp.com/users/691634595627794433">Joe Penna (MysteryGuitarMan)#7614</a></em></p>
@@ -29,6 +30,7 @@ through beginner example codes online.
 <p><code>⌃ control</code> + <code>⌥ option</code> + <code>⌘ command</code> + <code>i</code> ► add instant chord<br>
 <code>⌃ control</code> + <code>⌥ option</code> + <code>⌘ command</code> + <code>-</code> ► open program folder<br>
 <code>⌃ control</code> + <code>⌥ option</code> + <code>⌘ command</code> + <code>=</code> ► update karabiner chord_list</p>
+<code>Q</code> + <code>W</code> + <code>E</code> ► toggle chording on / off</p>
 </blockquote>
 <h2 id="installation">Installation</h2>
 <p><strong>Two programs you need to install:</strong></p>
@@ -55,7 +57,7 @@ through beginner example codes online.
 <ul>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> <strong>para_chording installation</strong>
 <ul>
-<li><em><a target=”_blank” href="http://youtube.com/mysteryguitarman"><s>download link</s></a></em> [real link coming soon]*</li>
+<li><em><a target=”_blank” href="https://github.com/JoePenna/para_chording/releases/download/v0.5.0/para_chording.v0.5.beta.kmmacros">download link</a></em></li>
 <li><em>These are the files I made to get you chording.</em></li>
 <br>
 </ul>
@@ -100,7 +102,9 @@ through beginner example codes online.
 <li>Click the needlessly small <em>Enable All</em> button.</li>
 </ul>
 </li>
-<li>You’re done with installation!</li>
+<li>You’re done with installation! To confirm, press <strong><code>q</code></strong> <strong><code>w</code></strong> <strong><code>e</code></strong> all together. You should get a message that para_chording is on / off.
+</li>
+	
 </ul>
 <h2 id="lets-start-chording">Let’s Start Chording!</h2>
 <p>Open any text editor. I recommend TextEdit for now.</p>
@@ -301,24 +305,34 @@ chords without outputs will definitely break things
 enter — ▼ but will be changed to :enter:<br>
 tab — ► but will be changed to :tab:</p>
 </blockquote>
-<p><em><strong>Examples:</strong></em></p>
+<p><em><strong>Example 1:</strong></em></p>
 <pre><code>abon,abandon
 ing,:backspace:ing
 </code></pre>
 <p>chording <strong><code>abon</code></strong> then <strong><code>ing</code></strong> outputs:<br>
 <code>abandon+space</code> then <code>backspace+ing</code><br>
 <strong><code>abandoning</code></strong></p>
+<p><em><strong>Example 2:</strong></em></p>
 <pre><code>=-:backspace:,hunter2
 </code></pre>
 <p>chording the three keys on the top of your keyboard (<code>hyphen</code> <code>equalsign</code> <code>delete</code> ) would output<br>
 <strong><code>hunter2</code></strong>, which might be your password or something…</p>
-<p>Lastly, the examples from earlier:</p>
+<p><em><strong>Example 3:</strong></em></p>
+<pre><code>jk,:backspace:#
+df,:enter:#
+</code></pre>
+<p>Reaching my right pinky over to the backspace and enter keys was cumbersome.
+<br> These chords give you a few control keys.
+<br>right index + middle fingers = <code>backspace</code>
+<br>left index + middle fingers = <code>enter</code>
+<p><em><strong>Example 4:</strong></em></p>
+<p>Lastly, the long phrases from earlier:</p>
 <pre><code>thm,To Whom It May Concern\,:enter::enter:#
 obed,I have the honor to be your obedient servant\,:enter::enter:A.Ham
 </code></pre>
 <p>Your output must be an unbroken line.</p>
 <p><strong>Modifiers For Chords Only</strong><br>
-These symbols can ONLY be part of your chord:</p>
+These can ONLY be part of your chord:</p>
 <blockquote>
 <p>^ <code>:left_control:</code><br>
 ^ <code>:right_control:</code></p>
@@ -326,6 +340,8 @@ These symbols can ONLY be part of your chord:</p>
 ⌥<code>:right_option:</code></p>
 <p>⌘	<code>:left_command:</code><br>
 ⌘ <code>:right_command:</code></p>
+<p>_	<code>:left_shift:</code><br>
+_ <code>:right_shift:</code></p>
 </blockquote>
 <p>They can be useful to differentiate chords for anagrammatic words. Remember that you could also use the spacebar as part of your chord:</p>
 <pre><code>	the,the
