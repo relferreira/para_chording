@@ -4,7 +4,7 @@
   "description": "<!DOCTYPE html> <html>",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js",
+    "build": "mkdir -p ./build && node index.js",
     "deploy": "mkdir -p ./build && node index.js && cp ./build/para_chording.json ~/.config/karabiner/assets/complex_modifications/para_chording.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
