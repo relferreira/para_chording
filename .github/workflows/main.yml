@@ -1,0 +1,26 @@
+name: "release"
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  tagged-release:
+    name: "Release"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: "Build & Release"
+        run: |
+          ls
+          node --version
+          npm run build
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: |
+            build/*.json
