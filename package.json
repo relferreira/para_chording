@@ -1,0 +1,21 @@
+{
+  "name": "para_chording",
+  "version": "0.6.0",
+  "description": "<!DOCTYPE html> <html>",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "deploy": "mkdir -p ./build && node index.js && cp ./build/para_chording.json ~/.config/karabiner/assets/complex_modifications/para_chording.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoePenna/para_chording.git"
+  },
+  "author": "JoePenna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoePenna/para_chording/issues"
+  },
+  "homepage": "https://github.com/JoePenna/para_chording#readme"
+}

@@ -1,0 +1,7 @@
+node_modules
+.next
+.now
+.vercel
+.DS_Store
+.env.local
+build
