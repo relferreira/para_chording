@@ -1,0 +1,19 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import '@elastic/eui/src/themes/amsterdam/colors_dark';
+@import '@elastic/eui/src/themes/amsterdam/globals';
+
+body {
+  position: relative;
+
+  height: 100vh;
+
+  font-family: sans-serif;
+  overflow-y: hidden;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
