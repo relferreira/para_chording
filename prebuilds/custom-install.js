@@ -128,6 +128,8 @@ if (process.env.npm_config_arches) {
   );
 }
 
+if (!options.arches || options.arches.length === 0) options.arches = ['x64'];
+
 // Choice prebuilds for install
 if (options.targets.length > 0) {
   let chain = Promise.resolve();

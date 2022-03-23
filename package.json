@@ -272,8 +272,6 @@
     "platforms": [
       "darwin"
     ],
-    "arches": [
-      "x64"
-    ]
+    "arches": []
   }
 }
