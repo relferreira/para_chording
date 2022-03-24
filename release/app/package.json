@@ -13,6 +13,18 @@
     "link-modules": "node -r ts-node/register ../../.erb/scripts/link-modules.ts",
     "postinstall": "npm run electron-rebuild && npm run link-modules"
   },
-  "dependencies": {},
-  "license": "MIT"
+  "dependencies": {
+    "@nut-tree/nut-js": "^2.0.1",
+    "iohook": "^0.9.3"
+  },
+  "license": "MIT",
+  "iohook": {
+    "targets": [
+      "electron-99"
+    ],
+    "platforms": [
+      "darwin"
+    ],
+    "arches": []
+  }
 }

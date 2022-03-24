@@ -8,13 +8,13 @@
     "rebuild": "electron-rebuild --parallel --types prod,dev,optional --module-dir release/app",
     "lint": "cross-env NODE_ENV=development eslint . --ext .js,.jsx,.ts,.tsx",
     "package": "ts-node ./.erb/scripts/clean.js dist && npm run build && electron-builder build --publish never",
-    "postinstall": "npm run copy-prebuilds && ts-node .erb/scripts/check-native-dep.js && electron-builder install-app-deps && cross-env NODE_ENV=development TS_NODE_TRANSPILE_ONLY=true webpack --config ./.erb/configs/webpack.config.renderer.dev.dll.ts && opencollective-postinstall",
+    "postinstall": "ts-node .erb/scripts/check-native-dep.js && electron-builder install-app-deps && cross-env NODE_ENV=development TS_NODE_TRANSPILE_ONLY=true webpack --config ./.erb/configs/webpack.config.renderer.dev.dll.ts && opencollective-postinstall && npm run copy-prebuilds",
     "start": "ts-node ./.erb/scripts/check-port-in-use.js && npm run start:renderer",
     "start:main": "cross-env NODE_ENV=development electron -r ts-node/register/transpile-only ./src/main/main.ts",
     "start:renderer": "cross-env NODE_ENV=development TS_NODE_TRANSPILE_ONLY=true webpack serve --config ./.erb/configs/webpack.config.renderer.dev.ts",
     "test": "jest",
     "prepare": "husky install",
-    "copy-prebuilds": "cp -r ./prebuilds/custom-install.js ./node_modules/iohook/ && node node_modules/iohook/custom-install.js"
+    "copy-prebuilds": "cp -r ./prebuilds/custom-install.js ./release/app/node_modules/iohook/ && cd release/app && node ./node_modules/iohook/custom-install.js"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
@@ -230,13 +230,11 @@
     "@elastic/datemath": "^5.0.3",
     "@elastic/eui": "^51.1.0",
     "@emotion/react": "^11.8.2",
-    "@nut-tree/nut-js": "^2.0.1",
     "electron-debug": "^3.2.0",
     "electron-log": "^4.4.4",
     "electron-store": "^8.0.1",
     "electron-updater": "^4.6.5",
     "history": "^5.2.0",
-    "iohook": "^0.9.3",
     "moment": "^2.29.1",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
