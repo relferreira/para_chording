@@ -38,12 +38,12 @@ declare global {
 }
 
 const Hello = () => {
-  const [shortcut, setShortcut] = useState('');
+  const [_, setShortcut] = useState('');
   const [value, setValue] = useState('');
   const [storedShortcuts, setStoredShortcuts] = useState([]);
 
   const [render, setRender] = useState(new Date());
-  const [selectedItems, setSelectedItems] = useState([]);
+  const [selectedItems, setSelectedItems] = useState<any[]>([]);
   const [selectedOptions, setSelected] = useState([]);
 
   useEffect(() => {
@@ -62,7 +62,7 @@ const Hello = () => {
         onSubmit={(e) => {
           e.preventDefault();
           window.electron.store.set(
-            selectedOptions.map((option) => option.label).join('+'),
+            selectedOptions.map((option: any) => option.label).join('+'),
             value
           );
           setShortcut('');
@@ -82,7 +82,7 @@ const Hello = () => {
                   label: key,
                 }))}
                 selectedOptions={selectedOptions}
-                onChange={(options) => setSelected(options)}
+                onChange={(options) => setSelected(options as any)}
                 isClearable={true}
               />
             </EuiFormRow>
@@ -156,7 +156,6 @@ const Hello = () => {
 };
 
 export default function App() {
-  const [navIsOpen, setNavIsOpen] = useState(true);
   return (
     <EuiProvider colorMode="dark">
       <EuiHeader>
