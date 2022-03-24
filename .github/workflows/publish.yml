@@ -42,6 +42,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CSC_IDENTITY_AUTO_DISCOVERY: false
         run: |
-          npm run postinstall
-          npm run build
-          npm exec electron-builder -- --publish always --mac
+          npm run publish
