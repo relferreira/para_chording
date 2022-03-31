@@ -178,12 +178,12 @@ function registerShortcuts() {
       buffer = [];
     }
 
-    buffer.push(`${key.keycode}`);
-
+    buffer.push(key.keycode);
+    let bufferJoin = buffer.sort().join('');
     lastKeyTime = currentTime;
     let shortcutFound = chords.find(
       (chord: any) =>
-        buffer.sort().join('') ===
+        bufferJoin ===
         chord.shortcut
           .split('+')
           .map((k: string) => keyNames[k])
